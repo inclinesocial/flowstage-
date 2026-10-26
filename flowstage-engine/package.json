@@ -1,0 +1,30 @@
+{
+  "name": "flowstage-engine",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Taste Gusto content engine \u2014 batch lyric videos over pooled TikTok-style b-roll (dance / relatable / meme energy)",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "transcribe": "node scripts/transcribe.mjs",
+    "fetch": "node scripts/fetch-pool.mjs",
+    "fetch:archive": "node scripts/fetch-archive.mjs",
+    "pools": "node scripts/fetch-pool.mjs --list",
+    "batch": "node scripts/batch-render.mjs",
+    "analyze": "python3 scripts/analyze-beats.py",
+    "manifest": "node scripts/build-manifest.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.246",
+    "@remotion/media-utils": "4.0.246",
+    "@remotion/google-fonts": "4.0.246",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.246"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}

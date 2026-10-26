@@ -1,0 +1,73 @@
+{
+  "_comment": "Each pool = one content vibe. `queries` feed Pexels/Pixabay portrait video search. `archive` adds public-domain retro/weird clips. Drop your own footage in public/pools/<name>/my-clips/ — it is always included and always wins ties.",
+  "pools": {
+    "dance": {
+      "label": "People dancing",
+      "queries": [
+        "person dancing vertical",
+        "dancing street urban",
+        "friends dancing party",
+        "hip hop dancer",
+        "afro dance",
+        "dancing silhouette club",
+        "girl dancing neon",
+        "breakdance street"
+      ],
+      "perQuery": 6
+    },
+    "relatable": {
+      "label": "Relatable everyday moments",
+      "queries": [
+        "person laughing candid vertical",
+        "friends hanging out rooftop",
+        "walking city night vertical",
+        "person looking out train window",
+        "morning routine coffee vertical",
+        "late night working laptop",
+        "person headphones listening music",
+        "crying happy emotional candid"
+      ],
+      "perQuery": 6
+    },
+    "meme": {
+      "label": "Meme energy (chaotic / funny / weird)",
+      "queries": [
+        "funny reaction face vertical",
+        "cat funny",
+        "dog funny fail",
+        "person confused reaction",
+        "awkward dance funny",
+        "slow motion face wind",
+        "person celebrating over the top"
+      ],
+      "perQuery": 5,
+      "archive": {
+        "collections": ["prelinger", "classic_tv_commercials"],
+        "queries": ["dance party 1960s", "strange instructional film", "vintage commercial funny"],
+        "perQuery": 4
+      }
+    },
+    "party": {
+      "label": "Nightlife / party",
+      "queries": [
+        "club crowd lights vertical",
+        "concert crowd hands up",
+        "dj party neon",
+        "friends toast night party",
+        "sparkler night celebration"
+      ],
+      "perQuery": 6
+    },
+    "aesthetic": {
+      "label": "Moody aesthetic b-roll",
+      "queries": [
+        "neon city rain vertical",
+        "smoke slow motion dark",
+        "silhouette sunset vertical",
+        "car night driving lights",
+        "ocean waves moody"
+      ],
+      "perQuery": 6
+    }
+  }
+}

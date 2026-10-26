@@ -1,0 +1,70 @@
+{
+  "_comment": "One entry = one rendered video. Mix pools freely: same chorus over dance clips Monday, meme bar Wednesday, moody aesthetic Friday. `seed` reshuffles b-roll without changing anything else — bump it to get a fresh variant of the same video.",
+  "song": {
+    "audio": "song.mp3",
+    "words": "src/data/song.words.json"
+  },
+  "videos": [
+    {
+      "name": "mon-chorus-dance",
+      "startSec": 42.0,
+      "durationSec": 15,
+      "pool": "dance",
+      "aesthetic": "taste_gusto",
+      "hook": "POV: the chorus you can't skip",
+      "seed": "1",
+      "clipSeconds": 2
+    },
+    {
+      "name": "tue-verse-relatable",
+      "startSec": 18.5,
+      "durationSec": 12,
+      "pool": "relatable",
+      "aesthetic": "rnb_mood",
+      "hook": "for everyone living a double life",
+      "seed": "1",
+      "clipSeconds": 2.5
+    },
+    {
+      "name": "wed-chorus-meme",
+      "startSec": 42.0,
+      "durationSec": 10,
+      "pool": "meme",
+      "aesthetic": "meme_bar",
+      "memeCaption": "me pretending the deadline doesn't exist",
+      "hook": "",
+      "seed": "2",
+      "clipSeconds": 1.5
+    },
+    {
+      "name": "thu-bridge-party",
+      "startSec": 74.0,
+      "durationSec": 15,
+      "pool": "party",
+      "aesthetic": "dancehall_neon",
+      "hook": "save this for Friday night",
+      "seed": "1",
+      "clipSeconds": 1.8
+    },
+    {
+      "name": "fri-chorus-dance-v2",
+      "startSec": 42.0,
+      "durationSec": 15,
+      "pool": "dance",
+      "aesthetic": "hiphop_punch",
+      "hook": "",
+      "seed": "3",
+      "clipSeconds": 1.5
+    },
+    {
+      "name": "sat-outro-aesthetic",
+      "startSec": 96.0,
+      "durationSec": 18,
+      "pool": "aesthetic",
+      "aesthetic": "taste_gusto",
+      "hook": "full track in bio",
+      "seed": "1",
+      "clipSeconds": 3
+    }
+  ]
+}
